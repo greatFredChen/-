@@ -57,7 +57,10 @@
     "pages/puzzle/pages/game/game",
     "pages/puzzle/pages/success/success",
     "pages/timeMachine/supportWuhan/supportWuhan",
-    "pages/graduate/graduate"
+    "pages/graduate/graduate",
+    "pages/graduate/answer/answer",
+    "pages/graduate/poster/poster",
+    "pages/graduate/avatar/avatar"
   ],
   "window": {
     "backgroundTextStyle": "light",

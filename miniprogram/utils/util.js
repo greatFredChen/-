@@ -22,7 +22,7 @@ const uploadPhoto = async function (tempFilePath) {
     cloudPath: app.globalData.storePrefix + tempFilePath.match(app.globalData.storePattern)[0],
     filePath: tempFilePath
     })
-    if (uploadRes.statusCode != 200) {
+    if (uploadRes.statusCode >= 300) {
     resolve(false)
     }
     else {
